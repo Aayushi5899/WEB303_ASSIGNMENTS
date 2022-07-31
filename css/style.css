@@ -1,4 +1,27 @@
-body{
-    margin: 0;
-    padding: 0;
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+th, td{
+    padding: 10px 20px;
+    border: 1px solid #000;
+}
+.rowhighlight { background-color: #FF6347; }
+
+
+#mytable th,
+#mytable td {
+  padding: 10px 30px;
+}
+
+
+#mytable th.asc:after {
+  display: inline;
+  content: '↓';
+}
+
+#mytable th.desc:after {
+  display: inline;
+  content: '↑';
+}
+
